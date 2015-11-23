@@ -1,0 +1,5 @@
+D:\Projects\MasalaBreda\MasalaBreda\bin\MasalaBreda.dll
+D:\Projects\MasalaBreda\MasalaBreda\bin\MasalaBreda.pdb
+D:\Projects\MasalaBreda\MasalaBreda\obj\Debug\MasalaBreda.dll
+D:\Projects\MasalaBreda\MasalaBreda\obj\Debug\MasalaBreda.pdb
+D:\Projects\MasalaBreda\MasalaBreda\obj\Debug\MasalaBreda.csprojResolveAssemblyReference.cache

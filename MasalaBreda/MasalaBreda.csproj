@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{4D8F0EF0-9E75-4F17-BDF9-A61C8D5DA156}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MasalaBreda</RootNamespace>
+    <AssemblyName>MasalaBreda</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <UseIISExpress>false</UseIISExpress>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Copy of Home.html" />
+    <Content Include="Home.html" />
+    <Content Include="Res\application.js" />
+    <Content Include="Res\bannerimage635439823465144996.JPG" />
+    <Content Include="Res\bannerimage635439823466238753.JPG" />
+    <Content Include="Res\bannerimage635439823467488761.JPG" />
+    <Content Include="Res\bannerimage635439823468895020.jpg" />
+    <Content Include="Res\btnCart.png" />
+    <Content Include="Res\btnMenu.png" />
+    <Content Include="Res\close.png" />
+    <Content Include="Res\contact.png" />
+    <Content Include="Res\css.css" />
+    <Content Include="Res\cufon-yui.js" />
+    <Content Include="Res\custom.js" />
+    <Content Include="Res\gesloten.png" />
+    <Content Include="Res\horeca-bestel-app-add.png" />
+    <Content Include="Res\images\ajax-loader.gif" />
+    <Content Include="Res\images\cart.png" />
+    <Content Include="Res\images\categoryDown.png" />
+    <Content Include="Res\images\categoryRight.png" />
+    <Content Include="Res\images\desktop\bg.png" />
+    <Content Include="Res\images\desktop\footer-back.png" />
+    <Content Include="Res\images\desktop\header.png" />
+    <Content Include="Res\images\ideal-pff.png" />
+    <Content Include="Res\images\loading-back.png" />
+    <Content Include="Res\images\order.png" />
+    <Content Include="Res\images\overlay.png" />
+    <Content Include="Res\info.png" />
+    <Content Include="Res\jqm.js" />
+    <Content Include="Res\jquery.cookie.js" />
+    <Content Include="Res\jquery.gsap.min.js" />
+    <Content Include="Res\jquery.mobile-1.4.2.min.css" />
+    <Content Include="Res\libs.js" />
+    <Content Include="Res\loading.gif" />
+    <Content Include="Res\masalabreda.png" />
+    <Content Include="Res\portamento-min.js" />
+    <Content Include="Res\Sketch_Rockwell_700.font.js" />
+    <Content Include="Res\staticmap.jpg" />
+    <Content Include="Res\store.js" />
+    <Content Include="Res\style.css" />
+    <Content Include="Res\top.html" />
+    <Content Include="Res\TweenMax.min.js" />
+    <Content Include="theme\nicetry\UI\desktop\images\btnPlusSmall.png" />
+    <Content Include="theme\nicetry\UI\desktop\images\desktop\bg.png" />
+    <Content Include="theme\nicetry\UI\desktop\images\desktop\order.png" />
+    <Content Include="theme\nicetry\UI\desktop\js\application.js" />
+    <Content Include="theme\nicetry\UI\desktop\js\jqm.js" />
+    <Content Include="theme\nicetry\UI\desktop\js\jquery.cookie.js" />
+    <Content Include="theme\nicetry\UI\desktop\js\libs.js" />
+    <Content Include="theme\nicetry\UI\desktop\js\portamento-min.js" />
+    <Content Include="theme\nicetry\UI\desktop\style.css" />
+    <Content Include="theme\nicetry\UI\mobile\js\gsap\jquery.gsap.min.js" />
+    <Content Include="theme\nicetry\UI\mobile\js\gsap\TweenMax.min.js" />
+    <Content Include="theme\UI\Mobile\images\gesloten.png" />
+    <Content Include="theme\UI\Mobile\images\testmode.png" />
+    <Content Include="theme\UI\Mobile\js\gsap\TweenMax.min.js" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>50685</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
